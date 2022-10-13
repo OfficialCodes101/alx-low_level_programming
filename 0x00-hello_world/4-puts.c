@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * I love comments
+ * main - Single line
+ * Return: I no know ong
  */
 int main(void)
 {
