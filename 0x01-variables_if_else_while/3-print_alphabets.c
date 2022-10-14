@@ -14,7 +14,7 @@ int main(void)
 		putchar(fred);
 		fred++;
 	}
-	
+
 	while (swaniker <= 'Z')
 	{
 		putchar(swaniker);
