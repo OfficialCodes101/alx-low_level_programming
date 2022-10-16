@@ -16,7 +16,7 @@ int main(void)
 			putchar(cat);
 			putchar(fish);
 
-			if (cat != 8 || fish != 9)
+			if (cat != '8' || fish != '9')
 			{
 				putchar(',');
 				putchar(' ');
