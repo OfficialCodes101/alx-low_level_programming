@@ -1,7 +1,19 @@
 #include <stdio.h>
 #include "main.h"
 
-void print_alphabet(void);
+/**
+ * print_alphabet - Entry point
+ * @void: Na mumu dey disturb me like this
+ */
+void print_alphabet(void)
+{
+	char c = 'a';
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		putchar(c);
+	}
+}
 
 /**
  * main - Entry point

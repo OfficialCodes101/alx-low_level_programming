@@ -1,9 +1,8 @@
-void print_alphabet(void)
-{
-	char x;
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
-        for (x = 'a'; x <= 'z'; x++)
-        {
-                putchar(x);
-        }
-}
+#include <stdio.h>
+
+void print_alphabet(void);
+
+#endif
