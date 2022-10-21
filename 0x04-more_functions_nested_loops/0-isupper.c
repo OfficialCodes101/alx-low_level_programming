@@ -3,6 +3,7 @@
 /**
  * _isupper - I don't even know
  * @c: Some stuff
+ * Return: relative
  */
 int _isupper(int c)
 {
