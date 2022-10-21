@@ -6,18 +6,15 @@
  */
 void more_numbers(void)
 {
-	char n, fish;
+	char n, t;
 
-	for (fish = 0; fish <= 9; fish++)
+	for (t = 0; t < 10; t++)
 	{
-		for (n = 0, n <= 14; n++;)
+		for (n = 0; n <= 14; n++)
 		{
-			if (n > 9)
-			{
-				_putchar(n / 10);
-			}
-			_putchar(n % 10);
+			_putchar(n);
 		}
+		_putchar('\n');
 	}
 	_putchar('\n');
 }
