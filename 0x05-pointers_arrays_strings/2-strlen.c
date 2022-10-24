@@ -3,6 +3,7 @@
 /**
  * _strlen - Length of string
  * @s: char data type
+ * Return: fish
  */
 int _strlen(char *s)
 {
