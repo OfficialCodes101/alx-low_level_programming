@@ -6,7 +6,7 @@
  */
 void _puts(char *str)
 {
-	str = "I am handsome asf";
+	str = "Holberton!";
 	while (*str != '\0')
 	{
 		_putchar(*str);
