@@ -7,5 +7,5 @@
 void _puts(char *str)
 {
 	str = "I am handsome asf";
-	_putchar(str);
+	_putchar(*str);
 }
